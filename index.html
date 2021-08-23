@@ -483,15 +483,20 @@
               </svg>
             </div>
 
-            <div class="form-field">
+            <div class="form-field textarea">
               <label for="comment">Комментарий</label>
               <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
             </div>
 
             <div class="form-checkbox">
-              <input type="checkbox" name="agreement" value="agreement" id="agreement" class="checkbox">
-              <span class="checkbox-icon"></span>
-              <label for="agreement" class="checkbox-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="checkbox-agreement"><span class="checkbox-agreement">Условия договора</span></a></label>
+              <label for="agreement">
+                <input type="checkbox" name="agreement" value="agreement" id="agreement" class="checkbox">
+                <span class="checkbox-icon"></span>
+                <p class="checkbox-text"> Соглашаюсь с рассылкой и принимаю
+                  <a href="#" class="checkbox-agreement">
+                    <span> Условия договора</span></a>
+                </p>
+              </label>
             </div>
 
            <button type="submit" class="form-button modal-button">Отправить</button>
